@@ -1,0 +1,45 @@
+<resources>
+
+    <string name="app_name">PE Games</string>
+    <string name="game_book">Game Book</string>
+    
+    <string name="categories">Categories</string>
+    <string name="alphabetical">A - Z</string>
+    <string name="random">Random</string>
+    <string name="my_lessons">My Lessons</string>
+    <string name="add_game">Add Game</string>
+    <string name="edit_game">Edit Game</string>
+    
+    <string name="add_category">Add Category</string>
+    <string name="add_to_my_lessons">Add to My Lessons</string>
+    <string name="remove_from_my_lessons">Remove from My Lessons</string>
+   
+    <string name="edit">Edit</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+    <string name="refresh">Refresh</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    
+    <string name="category_name">Category name &#8230;</string>
+    <string name="search">Search</string>
+    <string name="save_error">Can\'t save the game. Did you specify the name?</string>
+    
+    <string name="name">Name</string>
+    <string name="area">Area</string>
+    <string name="equipment">Equipment</string>
+    <string name="instructions">Instructions</string>
+    <string name="variation">Variation</string>
+    
+    <string-array name="files">
+        <item>Chasing_Games.txt</item>
+        <item>Cooperative_Games.txt</item>
+        <item>Major_Games.txt</item>
+        <item>Reaction_Games.txt</item>
+        <item>Relay_Games.txt</item>
+        <item>Forming_Groups.txt</item>
+        <item>General_Games.txt</item>
+    </string-array>
+
+</resources>

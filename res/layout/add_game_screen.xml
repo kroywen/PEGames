@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:background="@drawable/game_background">
+	
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:stretchColumns="1"
+        android:padding="10dp">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            
+            <TextView 
+                style="@style/AddGameTextView"
+                android:text="@string/name" />
+            
+            <EditText
+                android:id="@+id/title"
+                style="@style/AddGameEditText" />
+            
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            
+            <TextView 
+                style="@style/AddGameTextView"
+                android:text="@string/area" />
+            
+            <EditText
+                android:id="@+id/area"
+                style="@style/AddGameEditText" />
+            
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            
+            <TextView 
+                style="@style/AddGameTextView"
+                android:text="@string/equipment" />
+            
+            <EditText
+                android:id="@+id/equipment"
+                style="@style/AddGameEditText" />
+            
+        </TableRow>
+        
+         <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            
+            <TextView 
+                style="@style/AddGameTextView"
+                android:text="@string/instructions" />
+            
+            <EditText
+                android:id="@+id/instructions"
+                style="@style/AddGameEditText" />
+            
+        </TableRow>
+        
+          <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            
+            <TextView 
+                style="@style/AddGameTextView"
+                android:text="@string/variation" />
+            
+            <EditText
+                android:id="@+id/variation"
+                style="@style/AddGameEditText" />
+            
+        </TableRow>
+        
+    </TableLayout>
+    
+    </ScrollView>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#666">
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save" />
+    </LinearLayout>
+
+</LinearLayout>

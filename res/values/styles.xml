@@ -1,0 +1,37 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+    
+    <style name="AddGameTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">right|top</item>
+    </style>
+    
+    <style name="AddGameEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+    
+    <style name="AddGameTextViewNew">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+    
+    <style name="AddGameEditTextNew">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">2.3</item>
+        <item name="android:inputType">textMultiLine</item>
+    </style>
+
+</resources>
